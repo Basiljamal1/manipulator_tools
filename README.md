@@ -1,6 +1,6 @@
 # ManipulatorTools
 
-(This is still work in progress)
+**(This is still work in progress)**
 
 A **lightweight, thread-safe, and dependency-minimal** Python module for robotic manipulator kinematics, built on top of [Pinocchio](https://stack-of-tasks.github.io/pinocchio/).
 
@@ -156,7 +156,9 @@ Supported output formats from `forwardKinematics()` or `getPose_*()`:
 | `"rpy"`        | Roll-pitch-yaw (radians)  | `{"position": (x,y,z), "rpy_xyz_rad": (r,p,y)}`             |
 | `"axis-angle"` | Axis-angle representation | `{"position": (x,y,z), "axis": (ax,ay,az), "angle_rad": a}` |
 
-adding an `"_array"` post format (e.g `quat_array`) returns the translation and orientation in a single array. 
+
+Add  an `"_array"` post format (e.g `quat_array`) returns the translation and orientation in a single array. 
+
 ---
 
 ## 🧮 Kinematics Solver Parameters
